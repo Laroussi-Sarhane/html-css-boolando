@@ -25,8 +25,9 @@ body{
   margin: 50px;
 }
 .product .first{
-  width: 340px;
-  height: 480px;
+  
+  max-width: 100%;
+ 
 
 }
 
@@ -34,8 +35,7 @@ body{
   display: none;
 	position: absolute;
   top: 0;
-  width: 340px;
-  height: 480px;
+  max-width: 100%;
 }
 .product:hover .second{
   display: block;
